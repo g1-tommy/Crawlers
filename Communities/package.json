@@ -1,0 +1,27 @@
+{
+  "name": "community-posts-crawler",
+  "version": "2.0.2",
+  "description": "Scraping communities using Node.js",
+  "main": "commCrawler.js",
+  "scripts": {
+    "all": "node commCrawler.js -a",
+    "sites": "node commCrawlers.js -s",
+    "query": "node commCrawler.js -q",
+    "interv-all": "node commCrawler.js -a -c",
+    "help": "node commCrawler.js --help"
+  },
+  "keywords": [
+    "scraper",
+    "communities",
+    "monitoring"
+  ],
+  "author": "J.W.Jeon",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio-httpcli": "^0.7.3",
+    "colors": "^1.3.3",
+    "json-to-csv": "^1.0.0",
+    "node-cron": "^2.0.1",
+    "stdio": "^0.2.7"
+  }
+}
